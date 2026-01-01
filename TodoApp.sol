@@ -28,5 +28,4 @@ contract TodoApp {
         Todo memory todo = todos[_index];
         return (todo.task, todo.completed);
     }
-
 }
